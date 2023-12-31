@@ -1,0 +1,58 @@
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #171717;
+    color: #999;
+    font: 100%/18px helvetica, arial, sans-serif;
+}
+canvas {
+    vertical-align: middle;
+}
+#canvas-container {
+    height: 900px;
+    position: absolute;
+    width: 1600px;
+    z-index: 2;
+}
+canvas {
+    cursor: crosshair;
+    display: block;
+    position: relative;
+    z-index: 3;
+}
+canvas:active {
+    cursor: crosshair;
+}
+.fw-text-wrapper {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+}
+.fw-text-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0.5em;
+    left: 0;
+    margin: auto;
+    height: 1em;
+    font-weight: 900;
+    font-size: 4.5em;
+}
+.fw-text-overlay .letters {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0.3em;
+    right: 0;
+    opacity: 0;
+}
